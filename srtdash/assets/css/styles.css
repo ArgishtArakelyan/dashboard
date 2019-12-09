@@ -951,6 +951,10 @@ table.dbkit-table tr:hover {
     border-color: #e4e2f5;
 }
 
+th,td{
+    font-size: 13px;
+}
+
 table.dbkit-table tr td {
     font-size: 16px;
     font-weight: 400;
@@ -958,6 +962,8 @@ table.dbkit-table tr td {
     color: #616161;
     min-width: 141px;
 }
+
+
 
 .mv-icon img {
     max-width: 29px;
