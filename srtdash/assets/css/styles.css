@@ -2840,4 +2840,15 @@ table.dataTable thead td {
     color: #555;
 }
 
+
+td i{
+    font-size: 20px !important;
+    cursor: pointer;
+    float: right;
+}
+
+td,th{
+    text-align: left;
+}
+
 /*-------------------- END Offset Sidebar ------------------- */
