@@ -72,7 +72,6 @@
                             <span></span>
                             <span></span>
                         </div>
- 
                     </div>
                     <!-- profile info & task notification -->
                     <div class="col-md-6 col-sm-4 clearfix">
@@ -252,20 +251,21 @@
             <!-- page title area end -->
             <div class="main-content-inner">
                 <div class="row">
-
                     <!-- Primary table start -->
                     <div class="col-12 mt-5">
                         <div class="card">
                             <div class="card-body">
-
                                 <div class="mb-3 d-flex justify-content-between">
                                     <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLong">Add Client</button>
 
-    
-                                
+                                    <select class="custom-select" style="width: auto;">
+                                        <option selected="selected">Status</option>
+                                        <option>Active</option>
+                                        <option>Completed</option>
+                                    </select>
                                 </div>
-                                <h4 class="header-title">Clients list</h4>
 
+                                <h4 class="header-title">Clients list</h4>
                                 <div class="data-tables datatable-primary">
                                     <table id="dataTable2" class="text-center" style="width: 100%;">
                                         <thead class="text-capitalize">
@@ -275,16 +275,14 @@
                                                 <th>DOB</th>
                                                 <th>Phone</th>
                                                 <th>Email</th>
-
                                                 <th>Term</th>
                                                 <th>Rate</th>
                                                 <th>Fee</th>
                                                 <th>Admin fee</th>
                                                 <th>Closing date</th>
-
-
                                                 <th>Mortgage amount</th>
                                                 <th>Current mortgage</th>
+                                                <th>Status</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -301,9 +299,15 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option>Active</option>
+                                                        <option selected="selected">Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td data-toggle="modal" data-target="#pop1">Angelica Ramos  <i class="fa fa-angle-down"></i></td>
+                                                <td data-toggle="modal" data-target="#pop1">Angelica Ramos <i class="fa fa-angle-down"></i></td>
                                                 <td>Celeste Slater606-3727 Ullamcorper. St.</td>
                                                 <td>09/10/1984.</td>
                                                 <td>123-456-789</td>
@@ -315,6 +319,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Ashton Cox <i class="fa fa-angle-down"></i></td>
@@ -329,6 +339,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option >Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Bradley Greer <i class="fa fa-angle-down"></i></td>
@@ -343,6 +359,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Bruno Nash <i class="fa fa-angle-down"></i></td>
@@ -357,6 +379,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Caesar Vance <i class="fa fa-angle-down"></i></td>
@@ -371,6 +399,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option>Active</option>
+                                                        <option selected="selected">Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Caesar Vance <i class="fa fa-angle-down"></i></td>
@@ -385,6 +419,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option>Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Caesar Vance <i class="fa fa-angle-down"></i></td>
@@ -399,6 +439,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Caesar Vance <i class="fa fa-angle-down"></i></td>
@@ -413,6 +459,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Caesar Vance <i class="fa fa-angle-down"></i></td>
@@ -427,6 +479,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Caesar Vance <i class="fa fa-angle-down"></i></td>
@@ -441,6 +499,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td data-toggle="modal" data-target="#pop1">Caesar Vance <i class="fa fa-angle-down"></i></td>
@@ -455,6 +519,12 @@
                                                 <td>09/11/2019</td>
                                                 <td>$162,700</td>
                                                 <td>$168,700</td>
+                                                <td>
+                                                    <select class="custom-select">
+                                                        <option selected="selected">Active</option>
+                                                        <option>Completed</option>
+                                                    </select>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -463,7 +533,6 @@
                         </div>
                     </div>
                     <!-- Primary table end -->
-
                 </div>
             </div>
         </div>
@@ -655,130 +724,109 @@
         </div>
     </div>
     <!-- offset area end -->
-
-
-
-<!-- basic modal start -->
-<div class="modal fade" id="exampleModalLong">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Add client</h5>
-                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label class="col-form-label">Type</label>
-                    <select class="custom-select">
-                        <option selected="selected">Type</option>
-                        <option value="1">Lender</option>
-                        <option value="2">Lawyer</option>
-                    </select>
+    <!-- basic modal start -->
+    <div class="modal fade" id="exampleModalLong">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add client</h5>
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
                 </div>
-                 <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Name</label>
-                    <input class="form-control" type="text" id="example-tel-input" placeholder="Name">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="col-form-label">Type</label>
+                        <select class="custom-select">
+                            <option selected="selected">Type</option>
+                            <option value="1">Lender</option>
+                            <option value="2">Lawyer</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="example-tel-input" class="col-form-label">Name</label>
+                        <input class="form-control" type="text" id="example-tel-input" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-email-input" class="col-form-label">Email</label>
+                        <input class="form-control" type="email" id="example-email-input" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-tel-input" class="col-form-label">Phone</label>
+                        <input class="form-control" type="tel" id="example-tel-input" placeholder="123-456-789">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-tel-input" class="col-form-label">Address</label>
+                        <input class="form-control" type="text" id="example-tel-input" placeholder="Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-date-input" class="col-form-label">DOB</label>
+                        <input class="form-control" type="date" value="2018-03-05" id="example-date-input">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0;">
+                        <label class="col-form-label">
+                            <h5>Referral Source</h5>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="example-tel-input" class="col-form-label">Name</label>
+                        <input class="form-control" type="text" id="example-tel-input" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-email-input" class="col-form-label">Email</label>
+                        <input class="form-control" type="email" id="example-email-input" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-tel-input" class="col-form-label">Phone</label>
+                        <input class="form-control" type="tel" id="example-tel-input" placeholder="123-456-789">
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="example-email-input" class="col-form-label">Email</label>
-                    <input class="form-control" type="email" id="example-email-input" placeholder="name@example.com">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Add</button>
                 </div>
-
-                <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Phone</label>
-                    <input class="form-control" type="tel" id="example-tel-input" placeholder="123-456-789">
-                </div>
-
-                 <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Address</label>
-                    <input class="form-control" type="text" id="example-tel-input" placeholder="Address">
-                </div>
-
-                <div class="form-group">
-                    <label for="example-date-input" class="col-form-label">DOB</label>
-                    <input class="form-control" type="date" value="2018-03-05" id="example-date-input">
-                </div>
-
-
-
-                <div class="form-group" style="margin-bottom: 0;">
-                    <label class="col-form-label"><h5>Referral Source</h5></label>
-                </div>
-
-
-
-                <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Name</label>
-                    <input class="form-control" type="text" id="example-tel-input" placeholder="Name">
-                </div>
-
-                 <div class="form-group">
-                    <label for="example-email-input" class="col-form-label">Email</label>
-                    <input class="form-control" type="email" id="example-email-input" placeholder="name@example.com">
-                </div>
-
-                <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Phone</label>
-                    <input class="form-control" type="tel" id="example-tel-input" placeholder="123-456-789">
-                </div>
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add</button>
             </div>
         </div>
     </div>
-</div>
-<!-- basic modal end -->
-
-
-<!-- basic modal start -->
-<div class="modal fade" id="pop1">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">User name</h5>
-                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group" style="margin-bottom: 0;">
-                    <label class="col-form-label"><h6>Type: Lander</h6></label>
+    <!-- basic modal end -->
+    <!-- basic modal start -->
+    <div class="modal fade" id="pop1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">User name</h5>
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
                 </div>
-
-                <div class="form-group" style="margin-bottom: 0;">
-                    <label class="col-form-label"><h5>Referral Source</h5></label>
+                <div class="modal-body">
+                    <div class="form-group" style="margin-bottom: 0;">
+                        <label class="col-form-label">
+                            <h6>Type: Lander</h6>
+                        </label>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 0;">
+                        <label class="col-form-label">
+                            <h5>Referral Source</h5>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="example-tel-input" class="col-form-label">Name</label>
+                        <input class="form-control" type="text" id="example-tel-input" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-email-input" class="col-form-label">Email</label>
+                        <input class="form-control" type="email" id="example-email-input" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="example-tel-input" class="col-form-label">Phone</label>
+                        <input class="form-control" type="tel" id="example-tel-input" placeholder="123-456-789">
+                    </div>
                 </div>
-
-                 <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Name</label>
-                    <input class="form-control" type="text" id="example-tel-input" placeholder="Name">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Add</button>
                 </div>
-
-                <div class="form-group">
-                    <label for="example-email-input" class="col-form-label">Email</label>
-                    <input class="form-control" type="email" id="example-email-input" placeholder="name@example.com">
-                </div>
-
-                <div class="form-group">
-                    <label for="example-tel-input" class="col-form-label">Phone</label>
-                    <input class="form-control" type="tel" id="example-tel-input" placeholder="123-456-789">
-                </div>
-
-
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-success">Add</button>
             </div>
         </div>
     </div>
-</div>
-<!-- basic modal end -->
-
-
+    <!-- basic modal end -->
     <!-- jquery latest version -->
     <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
     <!-- bootstrap 4 js -->
@@ -788,7 +836,6 @@
     <script src="assets/js/metisMenu.min.js"></script>
     <script src="assets/js/jquery.slimscroll.min.js"></script>
     <script src="assets/js/jquery.slicknav.min.js"></script>
-
     <!-- Start datatable js -->
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
     <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
